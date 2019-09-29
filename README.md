@@ -38,7 +38,7 @@ npm test
 
 ### Основная диаграмма и описание архитектуры
 
-![diagramma](https://github.com/almegal/plugin-slider/blob/master/slider-plugin.png)
+![diagramma](https://github.com/almegal/plugin-slider/blob/master/uml/slider-plugin.png)
 
 Пользователь взаимодействует с видом, а сам вид оповещает презентер/контроллер о том, что произошло какое то событие. Контроллер определяет какое событие произошло и передает управление соответствующему методу модели. Далее, модель выполняет вызванный метод и изменяет состояние и передает управление обратно контроллеру. Котнроллер, получив управление, передает новые данные в вид.
 
@@ -97,7 +97,7 @@ const defaultProps: IOptions {
 
 #### Модель
 
-![diagramma model](https://github.com/almegal/plugin-slider/blob/master/model.png)
+![diagramma model](https://github.com/almegal/plugin-slider/blob/master/uml/model.png)
 
 #### Вид
 #### Презентер
